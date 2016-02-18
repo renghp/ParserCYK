@@ -1,0 +1,17 @@
+Terminais					# A secao de simbolos terminais eh a primeira do arquivo.
+{ runs, barks, eats, espresso, coffee, machine, cat, the, a }	# Tudo o que estiver apos o sustenido (#)  sera considerado comentario. 
+Variaveis				    	
+{ N, V, NP, DT, VP, S }			  	
+Inicial					
+{ S }							# Os simbolos terminais sao qualquer sequencia de caracteres 
+Regras						# (nao reservados) entre chaves. Os elementos do conjunto sao separados por virgula.
+{ S > NP , VP }   				# A secao de simbolos terminais inicia com a palavra-chave "Terminais".
+{ NP > DT , N }  				# Eh altamente recomendavel que simbolos terminais iniciem por caracteres minusculos.
+{ NP > boy }  
+{ NP > apple }   				# Simbolos nao podem conter os caracteres "{", "}", "#" ou ">", por serem reservados
+{ VP > V , NP } ;				# diferenciadas. Nao usar acentos para que o uso em outras plataformas nao 	
+{ VP > ate } ;					# corrompa o arquivo. O simbolo inicial possui uma secao propria, iniciada pela palavra
+{ V > ate } ;					# do simbolo de ">", que representa a derivacao.
+{ DT > the } ;				  	# As regras de producao devem seguir as restricoes de uma GLC.
+{ N > boy }  
+{ N > apple } 

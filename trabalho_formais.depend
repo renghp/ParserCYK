@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1434244273 source:c:\users\joao\desktop\trab formais\trabalho_formais\main.c
+	<stdio.h>
+	<string.h>
+

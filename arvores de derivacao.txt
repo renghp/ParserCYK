@@ -1,0 +1,18 @@
+
+Arvore 1:
+S -> {
+	NP -> {
+		DT -> { the }
+		N -> { boy }
+	      }
+	VP -> {
+		V -> { ate }
+		NP -> {
+			DT -> { the }
+			N -> { apple }
+		      }
+	      }
+      }
+
+
+
